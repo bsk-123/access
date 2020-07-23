@@ -45,6 +45,7 @@ form{
 }
 form span{
     color: red;
+    font-family: 'Ubuntu', sans-serif;
 }
 form p{
     margin-bottom: 8px;
@@ -53,6 +54,7 @@ form p{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90%;
 }
 .register{
     display: none;
@@ -72,7 +74,6 @@ input:focus{
 .head{
     font-family: 'Indie Flower', cursive;
     font-size: 1.8rem;
-    
     text-align: center;
     width: 80%;
     margin: 30px auto 50px auto;
@@ -140,6 +141,14 @@ form p,.n,.l{
     width: 50px;
     border-radius: 30px;
     display: none;
+}
+.edu{
+    font-size: 1.2rem;
+    font-family:  'Ubuntu', sans-serif;;
+}
+.ab:hover,.ee:hover,.job:hover{
+    cursor: pointer;
+    padding: 5px 10px;
 }
 @media screen and (max-width: 1024px){
     .wel{
