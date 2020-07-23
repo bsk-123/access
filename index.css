@@ -49,11 +49,6 @@ form span{
 form p{
     margin-bottom: 8px;
 }
-.forms{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .register{
     display: none;
 }
