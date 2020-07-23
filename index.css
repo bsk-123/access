@@ -96,8 +96,7 @@ input[type=submit]{
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
-    display: block;
-    margin: auto;
+    
 }
 .or{
     display: flex;
@@ -184,5 +183,9 @@ form p,.n,.l{
     }
     .l{
         text-align: center;
+    }
+    input[type=submit]{
+        display: block;
+        margin: auto;
     }
 }
